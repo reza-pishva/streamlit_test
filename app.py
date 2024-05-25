@@ -7,7 +7,7 @@ from sklearn.tree import DecisionTreeClassifier
 
 model = joblib.load('rf_model.joblib')
 
-st.title('Titanic Detection')
+st.title('Titanic Prediction')
 st.write("""### We need some information to predict""")
 
 input1 = st.number_input('Pclass')
